@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { View, Text, TextInput, StyleSheet, TouchableOpacity, ActivityIndicator, Alert } from 'react-native';
 import { useRouter , useLocalSearchParams} from 'expo-router';
 
+
 const EditUser: React.FC = () => {
   const router = useRouter();
  // const userId = router.query.userId as string; // Access userId from URL params

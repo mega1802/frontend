@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import { View, Text, TextInput, StyleSheet, TouchableOpacity, Alert } from 'react-native';
 import { useRouter } from 'expo-router';
-
 const CreateUser = () => {
   const router = useRouter();  // Access the router instance
   const [name, setName] = useState('');

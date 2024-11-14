@@ -5,7 +5,6 @@ import { useRouter } from 'expo-router';
 import { setItem } from '../../utils/secure_store';
 import { AUTH_TOKEN_KEY } from '../../constant/storage_keys';
 
-
 const LoginScreen = () => {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');

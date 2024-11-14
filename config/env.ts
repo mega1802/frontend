@@ -1,5 +1,6 @@
 const LOCAL_BASE_URL = "http://192.168.0.144:3000"; 
 
+
 enum ENVS {
   local
 }

@@ -4,6 +4,7 @@ export async function setItem(key: string, value: string) {
   await AsyncStorage.setItem(key, value);
 }
 
+
 export async function getItem(key: string) {
   return await AsyncStorage.getItem(key);
 }
